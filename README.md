@@ -27,7 +27,7 @@ void main ()
 		float c = rnd();
 		float d = rnd();
 
-		tc.Add( a, b, c, d, expectedFunc( a, b, c, d ) );	// add 2 input arguments and expected result
+		tc.Add( a, b, c, d, expectedFunc( a, b, c, d ) );	// add 4 input arguments and expected result
 	}
 
 	BruteforceCodeGen	bfcg;
