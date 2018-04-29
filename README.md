@@ -39,7 +39,7 @@ void main ()
 }
 ```
 3. Run CodeGen.exe with command line `-G test.as` and wait until generation complete.
-You can explicitly select graphics API by adding to command line: `CL 1.2`, `CL 2.0`, `GL 4.5`, `VK 1.0`, ... 
+You can explicitly select graphics API by adding to command line: `-api CL 1.2`, supported versions: `CL 2.0`, `GL 4.5`, `VK 1.0`, ... 
 If result file is empty then increase number of commands or increase max accuracy to get approximations.
 The result would be like this:
 ```cpp
@@ -52,6 +52,9 @@ float main (float arg0, float arg1, float arg2, float arg3)
 	return ((arg3 * arg0) + -(arg1 * arg2))
 }
 ```
+
+## Perfomance tests
+test4.as with 11 commands runs 14.2min on Intel HD630, 5.6min on NVidia 1050Ti, 1.37min on NVidia 980Ti.
 
 
 ## Troubleshooting
