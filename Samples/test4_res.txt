@@ -1,12 +1,11 @@
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 00034B7A, 00000000, 00000000, 00000000 }
-	// accuracy: 0.424556
-	// ticks:    36
-	// commands: 11
-	const float c_zero = float(0);
-	const float c_one = float(1);
-	return ((-arg3 < -arg0 ? c_one : -c_one) + ((arg1 > arg2 ? c_one : -c_one) >= c_zero ? (arg3 / -arg0) : (-arg1 < -arg2 ? c_one : -c_one)))
+	// fun hash:   { 000038D2, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.526004
+	// ticks:      20
+	// commands:   11
+	return ((arg0 * arg1) + ((arg0 * arg1) + (arg2 / arg3)))
 }
 
 //====================================
@@ -14,13 +13,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 001A5BCA, 00000000, 00000000, 00000000 }
-	// accuracy: 0.424556
-	// ticks:    35
-	// commands: 11
-	const float c_zero = float(0);
-	const float c_one = float(1);
-	return (((arg0 > arg1 ? c_one : -c_one) >= c_zero ? (arg2 / arg3) : (-arg0 < -arg1 ? c_one : -c_one)) + (-arg2 < -arg3 ? c_one : -c_one))
+	// fun hash:   { 0001C612, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.526004
+	// ticks:      20
+	// commands:   11
+	return ((arg1 * arg0) + ((arg1 / arg2) + (arg3 * arg0)))
 }
 
 //====================================
@@ -28,13 +26,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 001A5BD1, 00000000, 00000000, 00000000 }
-	// accuracy: 0.424556
-	// ticks:    35
-	// commands: 11
-	const float c_zero = float(0);
-	const float c_one = float(1);
-	return ((-arg2 < -arg3 ? c_one : -c_one) + ((arg0 > arg1 ? c_one : -c_one) >= c_zero ? (arg2 / arg3) : (-arg0 < -arg1 ? c_one : -c_one)))
+	// fun hash:   { 0001C682, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.526004
+	// ticks:      20
+	// commands:   11
+	return (((arg1 * arg0) + (arg1 / arg2)) + (arg3 * arg0))
 }
 
 //====================================
@@ -42,13 +39,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 001A5DC2, 00000000, 00000000, 00000000 }
-	// accuracy: 0.424556
-	// ticks:    36
-	// commands: 11
-	const float c_zero = float(0);
-	const float c_one = float(1);
-	return (((arg0 > arg1 ? c_one : -c_one) >= c_zero ? (arg2 / arg3) : (-arg0 < -arg1 ? c_one : -c_one)) + -(-arg2 > -arg3 ? c_one : -c_one))
+	// fun hash:   { 0001C690, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.526004
+	// ticks:      20
+	// commands:   11
+	return ((arg3 * arg0) + ((arg1 * arg0) + (arg1 / arg2)))
 }
 
 //====================================
@@ -56,13 +52,13 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 0002DD57, 00000000, 00000000, 00000000 }
-	// accuracy: 0.445973
-	// ticks:    29
-	// commands: 11
+	// fun hash:   { 000028FA, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.577878
+	// ticks:      21
+	// commands:   11
 	const float c_zero = float(0);
-	const float c_one = float(1);
-	return ((-arg1 > -arg2 ? c_one : -c_one) >= c_zero ? (-arg3 < -arg0 ? c_one : -c_one) : ((arg1 < arg2 ? c_one : -c_one) + (arg3 < -arg0 ? c_one : -c_one)))
+	return ((arg3 * arg0) + (arg1 >= c_zero ? (arg2 + arg0) : (arg1 / arg2)))
 }
 
 //====================================
@@ -70,13 +66,13 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 0016EAB9, 00000000, 00000000, 00000000 }
-	// accuracy: 0.445973
-	// ticks:    28
-	// commands: 11
+	// fun hash:   { 000147C2, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.577878
+	// ticks:      21
+	// commands:   11
 	const float c_zero = float(0);
-	const float c_one = float(1);
-	return ((-arg0 > -arg1 ? c_one : -c_one) >= c_zero ? (-arg2 < -arg3 ? c_one : -c_one) : ((arg0 < arg1 ? c_one : -c_one) + (arg2 < arg3 ? c_one : -c_one)))
+	return ((arg0 >= c_zero ? (arg1 + arg2) : (arg0 / arg1)) + (arg2 * arg3))
 }
 
 //====================================
@@ -84,13 +80,13 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 001B6CB8, 00000000, 00000000, 00000000 }
-	// accuracy: 0.445973
-	// ticks:    29
-	// commands: 11
+	// fun hash:   { 000147D0, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.577878
+	// ticks:      21
+	// commands:   11
 	const float c_zero = float(0);
-	const float c_one = float(1);
-	return -((-arg0 > -arg1 ? c_one : -c_one) >= c_zero ? (-arg2 > -arg3 ? c_one : -c_one) : ((arg0 > arg1 ? c_one : -c_one) + (arg2 > arg3 ? c_one : -c_one)))
+	return ((arg2 * arg3) + (arg0 >= c_zero ? (arg1 + arg2) : (arg0 / arg1)))
 }
 
 //====================================
@@ -98,13 +94,14 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 001F6717, 00000000, 00000000, 00000000 }
-	// accuracy: 0.467198
-	// ticks:    40
-	// commands: 11
+	// fun hash:   { 00002CFA, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.579674
+	// ticks:      13
+	// commands:   11
 	const float c_zero = float(0);
 	const float c_one = float(1);
-	return ((-arg1 * -arg2) >= c_zero ? (-arg3 / (arg0 >= c_zero ? arg1 : arg2)) : ((arg3 > arg0 ? c_one : -c_one) + (arg1 > -arg0 ? c_one : -c_one)))
+	return ((arg3 * arg0) + (arg1 >= c_zero ? (arg2 + arg0) : (arg1 > arg2 ? c_one : -c_one)))
 }
 
 //====================================
@@ -112,13 +109,14 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 001F6917, 00000000, 00000000, 00000000 }
-	// accuracy: 0.467198
-	// ticks:    46
-	// commands: 11
+	// fun hash:   { 000167C2, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.579674
+	// ticks:      13
+	// commands:   11
 	const float c_zero = float(0);
 	const float c_one = float(1);
-	return ((-arg1 / -arg2) >= c_zero ? (-arg3 / (arg0 >= c_zero ? arg1 : arg2)) : ((arg3 > arg0 ? c_one : -c_one) + (arg1 > -arg0 ? c_one : -c_one)))
+	return ((arg0 >= c_zero ? (arg1 + arg2) : (arg0 > arg1 ? c_one : -c_one)) + (arg2 * arg3))
 }
 
 //====================================
@@ -126,13 +124,14 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 00376797, 00000000, 00000000, 00000000 }
-	// accuracy: 0.467861
-	// ticks:    30
-	// commands: 11
+	// fun hash:   { 000167D0, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.579674
+	// ticks:      13
+	// commands:   11
 	const float c_zero = float(0);
 	const float c_one = float(1);
-	return ((-arg1 * -arg2) >= c_zero ? (arg3 > (arg0 < arg1 ? c_one : -c_one) ? c_one : -c_one) : ((arg2 > arg3 ? c_one : -c_one) + (arg0 > -arg0 ? c_one : -c_one)))
+	return ((arg2 * arg3) + (arg0 >= c_zero ? (arg1 + arg2) : (arg0 > arg1 ? c_one : -c_one)))
 }
 
 //====================================

@@ -10,7 +10,6 @@ float rnd ()
 
 void main ()
 {
-	// gen test cases
 	TestCasesF4 tc;
 
 	for (int i = 0; i < 10; ++i)
@@ -27,6 +26,7 @@ void main ()
 	bfcg.SetTests( tc );
 	bfcg.SetMaxAccuracy( 1.0f );
 	bfcg.SetMaxCommands( 11 );
-	bfcg.AddCommandSet( ECommandSet_FloatBaseCommands );
+	bfcg.AddCommandSet( ECommandSet_FloatArithmetic );
+	bfcg.SetFitnessFunction( EFitnessFunction_FloatLinear );
 	bfcg.Run( "test4_res.txt" );
 }

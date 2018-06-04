@@ -1,0 +1,140 @@
+int main (int arg0)
+{
+	// fun hash:   { 001C987C, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      23
+	// commands:   7
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((IntLog2(arg0) ^ const_0)))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 0027987C, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      24
+	// commands:   8
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((const_0 ^ IntLog2(arg0))))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 00E4C3CC, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      24
+	// commands:   8
+	const T const_0 = 31;
+	return (IntLog2((IntLog2(arg0) ^ const_0)) ^ arg0)
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 00E4C3E1, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      24
+	// commands:   8
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((IntLog2(arg0) ^ const_0)))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 07261E61, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      25
+	// commands:   9
+	const T const_0 = 31;
+	return (IntLog2((IntLog2(arg0) ^ const_0)) ^ arg0)
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 0726127C, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      25
+	// commands:   9
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((IntLog2(arg0) ^ const_0)))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 001C883C, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      25
+	// commands:   7
+	const T const_0 = 31;
+	return (~~arg0 ^ IntLog2((IntLog2(arg0) ^ const_0)))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 013CC3E1, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      25
+	// commands:   9
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((const_0 ^ IntLog2(arg0))))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 07261E4C, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      25
+	// commands:   9
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((IntLog2(arg0) ^ const_0)))
+}
+
+//====================================
+
+
+int main (int arg0)
+{
+	// fun hash:   { 07261F09, 00000000, 00000000, 00000000 }
+	// const hash: { 000001FB, 00000000, 00000000, 00000000 }
+	// accuracy:   1.850634e-09
+	// ticks:      25
+	// commands:   9
+	const T const_0 = 31;
+	return (arg0 ^ IntLog2((IntLog2(arg0) ^ const_0)))
+}
+
+//====================================
+
+

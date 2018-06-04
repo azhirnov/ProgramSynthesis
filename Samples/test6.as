@@ -1,6 +1,6 @@
 float expectedFunc (float a, float b)
 {
-	return a + b;
+	return 77.0f;
 }
 
 float rnd ()
@@ -11,6 +11,8 @@ float rnd ()
 void main ()
 {
 	TestCasesF2 tc;
+	
+	tc.Add( 0.0f, 0.0f, expectedFunc( 0.0f, 0.0f ) );
 
 	for (int i = 0; i < 10; ++i)
 	{
@@ -23,8 +25,10 @@ void main ()
 	BruteforceCodeGen	bfcg;
 	bfcg.SetTests( tc );
 	bfcg.SetMaxAccuracy( 0.001f );
-	bfcg.SetMaxCommands( 3 );
+	bfcg.SetMaxCommands( 6 );
+	bfcg.SetMaxConstants( 1 );
 	bfcg.AddCommandSet( ECommandSet_FloatArithmetic );
+	bfcg.AddConstantSet( EConstantSet_Values0to255 );
 	bfcg.SetFitnessFunction( EFitnessFunction_FloatLinear );
-	bfcg.Run( "test1_res.txt" );
+	bfcg.Run( "test6_res.txt" );
 }

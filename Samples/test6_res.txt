@@ -1,0 +1,144 @@
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00010452 }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      5
+	// commands:   6
+	const T const_0 = 77.0;
+	return (-(arg0 + arg1) + (const_0 + (arg0 + arg1)))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 0001048A }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      5
+	// commands:   6
+	const T const_0 = 77.0;
+	return (((arg0 + arg1) + const_0) + -(arg0 + arg1))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00012052 }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      5
+	// commands:   6
+	const T const_0 = 77.0;
+	return (-(arg0 + arg1) + ((const_0 + arg0) + arg1))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00009492 }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      6
+	// commands:   6
+	const T const_0 = 77.0;
+	return ((arg1 + -arg0) + (-arg1 + (const_0 + arg0)))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00028A52 }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      7
+	// commands:   6
+	const float c_one = float(1);
+	const T const_0 = 77.0;
+	return (-(arg0 < arg1 ? c_one : -c_one) + (const_0 + (arg0 < arg1 ? c_one : -c_one)))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00028A8A }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      7
+	// commands:   6
+	const float c_one = float(1);
+	const T const_0 = 77.0;
+	return (((arg0 < arg1 ? c_one : -c_one) + const_0) + -(arg0 < arg1 ? c_one : -c_one))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00030C52 }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      7
+	// commands:   6
+	const float c_one = float(1);
+	const T const_0 = 77.0;
+	return (-(arg0 > arg1 ? c_one : -c_one) + (const_0 + (arg0 > arg1 ? c_one : -c_one)))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00030C8A }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      7
+	// commands:   6
+	const float c_one = float(1);
+	const T const_0 = 77.0;
+	return (((arg0 > arg1 ? c_one : -c_one) + const_0) + -(arg0 > arg1 ? c_one : -c_one))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 00018652 }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      11
+	// commands:   6
+	const T const_0 = 77.0;
+	return (-(arg0 * arg1) + (const_0 + (arg0 * arg1)))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1)
+{
+	// fun hash:   { 0001868A }
+	// const hash: { 0000014D }
+	// accuracy:   0.0
+	// ticks:      11
+	// commands:   6
+	const T const_0 = 77.0;
+	return (((arg0 * arg1) + const_0) + -(arg0 * arg1))
+}
+
+//====================================
+
+

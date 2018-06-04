@@ -1,10 +1,11 @@
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000016C2, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    13
-	// commands: 5
-	return ((arg3 * arg0) + -(arg1 * arg2))
+	// fun hash:   { 000016D1 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      11
+	// commands:   5
+	return -((arg1 * arg2) + (arg3 * -arg0))
 }
 
 //====================================
@@ -12,11 +13,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 0000B60A, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    14
-	// commands: 6
-	return (-(arg1 * arg2) + (arg3 * arg0))
+	// fun hash:   { 0000B611 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      11
+	// commands:   6
+	return -((arg3 * -arg0) + (arg1 * arg2))
 }
 
 //====================================
@@ -24,11 +26,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 0000B611, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    14
-	// commands: 6
-	return ((arg3 * arg0) + -(arg1 * arg2))
+	// fun hash:   { 0000B681 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      11
+	// commands:   6
+	return -((arg1 * arg2) + (arg3 * -arg0))
 }
 
 //====================================
@@ -36,11 +39,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000082DA, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    14
-	// commands: 6
-	return ((arg3 * arg0) + (-arg1 * arg2))
+	// fun hash:   { 0000B688 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      11
+	// commands:   6
+	return -((arg1 * arg2) + (arg3 * -arg0))
 }
 
 //====================================
@@ -48,11 +52,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000090DA, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    14
-	// commands: 6
-	return ((arg3 * arg0) + (arg1 * -arg2))
+	// fun hash:   { 0000B64A }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      12
+	// commands:   6
+	return (-(arg1 * arg2) + -(arg3 * -arg0))
 }
 
 //====================================

@@ -1,0 +1,139 @@
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000E05C, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.16467
+	// ticks:      15
+	// commands:   8
+	const uint c_zero = uint(0);
+	const uint c_one = uint(1);
+	return ((arg3 | (arg0 > arg1 ? c_one : -c_one)) != 0 ? arg2 % (arg3 | (arg0 > arg1 ? c_one : -c_one)) : c_zero)
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000C054, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.178242
+	// ticks:      14
+	// commands:   8
+	const uint c_zero = uint(0);
+	return (arg2 & (arg3 | (arg1 != 0 ? arg0 % arg1 : c_zero)))
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 00003054, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.190282
+	// ticks:      3
+	// commands:   8
+	return (arg2 & (arg3 | (arg0 + arg1)))
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 00004054, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.19116
+	// ticks:      3
+	// commands:   8
+	return (arg2 & (arg3 | (arg0 & arg1)))
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000E054, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.196725
+	// ticks:      4
+	// commands:   8
+	const uint c_one = uint(1);
+	return (arg2 & (arg3 | (arg0 > arg1 ? c_one : -c_one)))
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000AC77, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.198989
+	// ticks:      18
+	// commands:   8
+	const uint c_zero = uint(0);
+	return ((arg2 != 0 ? arg1 % arg2 : c_zero) << ((arg3 << ((arg0 * arg0)&31)&31)
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000AC78, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.198989
+	// ticks:      18
+	// commands:   8
+	const uint c_zero = uint(0);
+	return ((arg2 != 0 ? arg1 % arg2 : c_zero) >> ((arg3 << ((arg0 * arg0)&31)&31)
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000AC87, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.198989
+	// ticks:      18
+	// commands:   8
+	const uint c_zero = uint(0);
+	return ((arg2 != 0 ? arg1 % arg2 : c_zero) << ((arg3 >> ((arg0 * arg0)&31)&31)
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 0000AC88, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.198989
+	// ticks:      18
+	// commands:   8
+	const uint c_zero = uint(0);
+	return ((arg2 != 0 ? arg1 % arg2 : c_zero) >> ((arg3 >> ((arg0 * arg0)&31)&31)
+}
+
+//====================================
+
+
+uint main (uint arg0, uint arg1, uint arg2, uint arg3)
+{
+	// fun hash:   { 00007CA7, 00000000 }
+	// const hash: { 00000000, 00000000 }
+	// accuracy:   0.20029
+	// ticks:      18
+	// commands:   8
+	const uint c_zero = uint(0);
+	return ((arg2 != 0 ? arg1 % arg2 : c_zero) << ((arg3 * (arg0 << (arg0&31))&31)
+}
+
+//====================================
+
+

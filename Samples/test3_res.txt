@@ -1,9 +1,10 @@
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
+	// fun hash:   { 000E3892 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   7
 	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
 }
 
@@ -12,10 +13,37 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
+	// fun hash:   { 0071C092 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   8
+	return (((arg2 / arg3) + (arg0 * arg1)) + ((arg2 / arg3) + (arg0 * arg1)))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1, float arg2, float arg3)
+{
+	// fun hash:   { 0071C412 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   8
+	return ((arg0 * arg1) + ((arg2 / arg3) + ((arg0 * arg1) + (arg2 / arg3))))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1, float arg2, float arg3)
+{
+	// fun hash:   { 0071C482 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   8
 	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
 }
 
@@ -24,10 +52,11 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
+	// fun hash:   { 0071C490 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   8
 	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
 }
 
@@ -36,10 +65,24 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
+	// fun hash:   { 038044D2 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   9
+	return ((arg0 * arg1) + ((arg2 / arg3) + ((arg0 * arg1) + (arg2 / arg3))))
+}
+
+//====================================
+
+
+float main (float arg0, float arg1, float arg2, float arg3)
+{
+	// fun hash:   { 038E0092 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   9
 	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
 }
 
@@ -48,11 +91,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
-	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
+	// fun hash:   { 038E0412 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   9
+	return ((arg2 / arg3) + ((arg0 * arg1) + ((arg2 / arg3) + (arg0 * arg1))))
 }
 
 //====================================
@@ -60,11 +104,12 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
-	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
+	// fun hash:   { 038E0482 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   9
+	return (((arg2 / arg3) + (arg0 * arg1)) + ((arg2 / arg3) + (arg0 * arg1)))
 }
 
 //====================================
@@ -72,46 +117,11 @@ float main (float arg0, float arg1, float arg2, float arg3)
 
 float main (float arg0, float arg1, float arg2, float arg3)
 {
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
-	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
-}
-
-//====================================
-
-
-float main (float arg0, float arg1, float arg2, float arg3)
-{
-	// hash:     { 000E3892, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    34
-	// commands: 7
-	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
-}
-
-//====================================
-
-
-float main (float arg0, float arg1, float arg2, float arg3)
-{
-	// hash:     { 0071C48A, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    35
-	// commands: 8
-	return (((arg0 * arg1) + (arg2 / arg3)) + ((arg0 * arg1) + (arg2 / arg3)))
-}
-
-//====================================
-
-
-float main (float arg0, float arg1, float arg2, float arg3)
-{
-	// hash:     { 0071C292, 00000000, 00000000, 00000000 }
-	// accuracy: 0.0
-	// ticks:    35
-	// commands: 8
+	// fun hash:   { 038E0490 }
+	// const hash: { 00000000 }
+	// accuracy:   0.0
+	// ticks:      31
+	// commands:   9
 	return (((arg2 / arg3) + (arg0 * arg1)) + ((arg2 / arg3) + (arg0 * arg1)))
 }
 
