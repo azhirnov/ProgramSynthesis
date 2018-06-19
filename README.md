@@ -1,5 +1,4 @@
 # GPU accelerated program synthesis
-Samples for [CodeGen project](https://github.com/azhirnov/ModularGraphicsFramework/tree/master/Projects/CodeGen)
 
 ## How to use
 1. Create script file, for example `test.as`
