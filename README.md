@@ -93,4 +93,4 @@ LogErr, LogWarn, LogInfo, LogDbg
 ```
 
 ## Similar projects & papers
-1. [genetic-algorithm-brainfuck-generator](https://github.com/lapinozz/genetic-algorithm-brainfuck-generator)
+1. [using artificial intelligence to write self modifying improving programs](http://www.primaryobjects.com/2013/01/27/using-artificial-intelligence-to-write-self-modifying-improving-programs/)
