@@ -42,6 +42,7 @@ Use `-dev nvidia` or `-dev "GTX 1050 Ti"` to explicitly select compute device.<b
 If result file is empty then increase number of commands or increase max accuracy to get approximations.<br/>
 <br/>
 The result would be like this:
+
 ```cpp
 float main (float arg0, float arg1, float arg2, float arg3)
 {
@@ -90,3 +91,6 @@ Square(x), Min(x,y), Max(x,y), MinAbs(x,y), MaxAbs(x,y), MinMag(x,y), MaxMag(x,y
 // logging:
 LogErr, LogWarn, LogInfo, LogDbg
 ```
+
+## Similar projects & papers
+1. [genetic-algorithm-brainfuck-generator](https://github.com/lapinozz/genetic-algorithm-brainfuck-generator)
